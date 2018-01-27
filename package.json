@@ -4,7 +4,7 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "start": "node app.js",
+    "start": "concurrently \"npm run build --prefix source\" \"npm run server\"",
     "server": "nodemon app.js",
     "client": "npm start --prefix source",
     "dev": "concurrently \"npm run server\" \"npm run client\""
