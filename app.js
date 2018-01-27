@@ -20,4 +20,4 @@ app.use(bodyParser.json());
 // Start server
 app.listen(port, () => {
     console.log(`\n\nServer started on port ${port}`);
-});
+}); 
