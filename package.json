@@ -1,16 +1,29 @@
 {
   "name": "portfolio-web",
-  "version": "0.1.0",
-  "private": true,
-  "dependencies": {
-    "react": "^16.2.0",
-    "react-dom": "^16.2.0",
-    "react-scripts": "1.1.0"
-  },
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
-  }
+    "start": "node app.js",
+    "server": "nodemon app.js",
+    "client": "npm start --prefix source",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "dependencies": {
+    "body-parser": "*",
+    "concurrently": "^3.5.1",
+    "cors": "*",
+    "express": "*",
+    "mongoose": "*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Luizlc10/portfolio.git"
+  },
+  "author": "Luiz Cláudio",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Luizlc10/portfolio/issues"
+  },
+  "homepage": "https://github.com/Luizlc10/portfolio#readme"
 }
