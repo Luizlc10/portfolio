@@ -78,7 +78,8 @@ class App extends Component {
             <div className="container">
               <h1>Contact</h1>
               <div className="row">
-                <div className="col">
+
+                <div className="col-sm-12 col-md-6 col-lg-6">
 
                   <form>
                     <div className="form-group row">
@@ -101,7 +102,8 @@ class App extends Component {
                   </form>
 
                 </div>
-                <div className="col">
+
+                <div className="col-sm-12 col-md-6 col-lg-6">
                   <a href="https://github.com/Luizlc10" target="_blank">
                     <img className="social" src="img/github.png"></img>
                   </a>
@@ -115,6 +117,7 @@ class App extends Component {
                     <img className="social" src="img/insta.png"></img>
                   </a>
                 </div>
+
               </div>
             </div>
           </div>
