@@ -1,0 +1,129 @@
+body, html{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+.row, .col{
+  /* margin: 0; */
+  /* padding: 0; */
+}
+
+/* COMPUTER-BG */
+#computer-bg{
+  background-image: url("/img/image-bg.jpg");
+  height: 95vh;
+  background-repeat: no-repeat;
+  background-color: #cccccc;
+  background-position: center;
+  background-size: cover;
+}
+#computer-bg #bg1-text{
+  height: 85vh;
+  display: flex;
+  justify-content: center; /* align horizontal */
+  align-items: center;
+  text-align: center;
+}
+#computer-bg h1{
+  color: white;
+  font-size: 40pt;
+}
+.flag{
+  height: 30px;
+  margin-right: 10px;
+}
+nav{
+  background: rgba(255, 255, 255, 0);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3) 90%, rgba(0, 0, 0, 0));
+}
+
+
+
+/* ABOUTE ME */
+#about{
+  padding: 0 60px;
+}
+#about p{
+  font-size: 16pt;
+  margin-top: 30px;
+  text-indent: 70px;
+  text-align: justify;
+}
+#img-me{
+  border: 1px solid #BFBFBF;
+  /* box-shadow: 4px 2px 2px; */
+  border-radius: 100px;
+  height: 200px;
+  box-shadow: 0 0 10px 0.5px #9f9d9d;
+  margin-top: -70px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  transition: all 0.1s ease-in-out;
+
+}
+#img-me:hover{
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1); /** Chrome & Safari **/
+  -o-transform: scale(1.1); /** Opera **/
+  -moz-transform: scale(1.1); /** Firefox **/
+  -ms-transform: scale(1.1);
+}
+
+
+
+/* PROJECTS */
+#projects{
+  background-color: rgb(228, 228, 228);
+  padding: 60px 0;
+  /* margin: 0 60px; */
+}
+#footer-top, #footer-bottom{
+  color: white;
+  padding: 5px;
+  margin: 0;
+}
+#footer-top{
+  background-color: #2666BD;
+}
+#footer-bottom{
+  background-color: #2158A3;
+  text-align: center;
+}
+
+/* CONTACT */
+#contact p, #contact h1{
+  margin: 0;
+  padding: 0;
+}
+form{
+  margin: 20px 0;
+}
+form button{
+  display: block;
+  float: right;
+  margin-bottom: 10px;
+}
+.social{
+  height: 40px;
+  margin: 10px;
+}
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+}
