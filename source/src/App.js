@@ -7,7 +7,7 @@ class App extends Component {
       <div className="App">
 
         <div id="computer-bg">
-          <div id="bg1-nav">
+          <div id="bg-nav">
             <nav className="navbar navbar-expand-lg navbar-dark">
             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
               <span className="navbar-toggler-icon"></span>
@@ -40,7 +40,7 @@ class App extends Component {
             </div>
           </nav>
           </div>
-          <div id="bg1-text">
+          <div id="bg-text">
             <div className="container">
               <h1>Hi, there! I'm Luiz.</h1>
               <h1>I'm a web and mobile developer</h1>
@@ -49,11 +49,9 @@ class App extends Component {
         </div>
 
         <div id="about">
-          <div className="container">
-            <img id="img-me" src="img/me.jpg"></img>
-            <h1>About me</h1>
-            <p>I stydy analysis and systems development and I work with JavaScript for develop and design web and mobile projects about 2 years using the most used JS frameworks on the market (Angular 2+, react and vue for web, ionic 2 and react native for mobile) and building APIs using NodeJs with MongoDB or MySQL.</p>
-          </div>
+          <img id="img-me" src="img/me.jpg"></img>
+          <h1>About me</h1>
+          <p>I stydy analysis and systems development and I work with JavaScript for develop and design web and mobile projects about 2 years using the most used JS frameworks on the market (Angular 2+, react and vue for web, ionic 2 and react native for mobile) and building APIs using NodeJs with MongoDB or MySQL.</p>
         </div>
 
         <div id="projects">
@@ -61,10 +59,67 @@ class App extends Component {
             <h1>Projects</h1>
             <div className="row">
 
-              <div className="card">
-                <img className="card-img-top" src="img/card-image.svg" alt="Card image cap"></img>
-                <div className="card-body">
-                  <p>Project name</p>
+
+              <div className="col-sm-12 col-md-6 col-lg-4">
+                <div className="card">
+                  <img className="card-img-top" src="img/card-image.svg" alt="Card image cap"></img>
+                  <div className="card-body">
+                    <p>Project name</p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="col-sm-12 col-md-6 col-lg-4">
+                <div className="card">
+                  <img className="card-img-top" src="img/card-image.svg" alt="Card image cap"></img>
+                  <div className="card-body">
+                    <p>Project name</p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="col-sm-12 col-md-6 col-lg-4">
+                <div className="card">
+                  <img className="card-img-top" src="img/card-image.svg" alt="Card image cap"></img>
+                  <div className="card-body">
+                    <p>Project name</p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="col-sm-12 col-md-6 col-lg-4">
+                <div className="card">
+                  <img className="card-img-top" src="img/card-image.svg" alt="Card image cap"></img>
+                  <div className="card-body">
+                    <p>Project name</p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="col-sm-12 col-md-6 col-lg-4">
+                <div className="card">
+                  <img className="card-img-top" src="img/card-image.svg" alt="Card image cap"></img>
+                  <div className="card-body">
+                    <p>Project name</p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="col-sm-12 col-md-6 col-lg-4">
+                <div className="card">
+                  <img className="card-img-top" src="img/card-image.svg" alt="Card image cap"></img>
+                  <div className="card-body">
+                    <p>Project name</p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="col-sm-12 col-md-6 col-lg-4">
+                <div className="card">
+                  <img className="card-img-top" src="img/card-image.svg" alt="Card image cap"></img>
+                  <div className="card-body">
+                    <p>Project name</p>
+                  </div>
                 </div>
               </div>
 

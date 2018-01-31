@@ -11,22 +11,31 @@ body, html{
 /* COMPUTER-BG */
 #computer-bg{
   background-image: url("/img/image-bg.jpg");
-  height: 95vh;
+  height: 92vh;
   background-repeat: no-repeat;
   background-color: #cccccc;
   background-position: center;
   background-size: cover;
+  z-index: 2;
 }
-#computer-bg #bg1-text{
+#bg-nav{
+  z-index: 100;
+}
+#computer-bg #bg-text{
   height: 85vh;
   display: flex;
   justify-content: center; /* align horizontal */
   align-items: center;
   text-align: center;
+  z-index: 1;
 }
 #computer-bg h1{
   color: white;
   font-size: 30pt;
+}
+#computer-bg .container{
+  position: absolute;
+  top: 34.333%;
 }
 .flag{
   height: 30px;
@@ -39,12 +48,12 @@ nav{
 
 
 
-/* ABOUTE ME */
+/* ABOUTE */
 #about{
-  padding: 0 60px;
+  padding: 0 20% 40px 20%;
 }
 #about p{
-  font-size: 12pt;
+  font-size: 16pt;
   margin-top: 30px;
   text-indent: 70px;
   text-align: justify;
@@ -91,6 +100,7 @@ nav{
   text-align: center;
 }
 
+
 /* CONTACT */
 #contact p, #contact h1{
   margin: 0;
@@ -108,18 +118,33 @@ form button{
   height: 40px;
   margin: 10px;
 }
-/* Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) {
 
+
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px) {
+  /* #about{
+    margin: 0 10px;
+  } */
 }
 
 /* Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) {
-
+@media (max-width: 768px) {
+  #about{
+    padding: 0 10px 40px 10px;
+  }
+  #img-me{
+    height: 150px;
+  }
+  #about p{
+    font-size: 12pt;
+  }
+  h1{
+    font-size: 20pt;
+  }
 }
 
 /* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) {
+@media (max-width: 992px) {
 
 }
 
